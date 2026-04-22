@@ -20,6 +20,7 @@
 ### Bug fixes
 
 ### Additions and Improvements
+- Renamed `InvalidSystemCallAddressException` to `SystemCallNoCodeAtAddressException` to better reflect that the exception is thrown when no code exists at the system call target address [#10281](https://github.com/besu-eth/besu/issues/10281)
 - The option to set a different block period for empty BFT blocks (`emptyblockperiodseconds`) is no longer experimental. The experimental flag `xemptyblockperiodseconds` will be removed in a future release.
 
 ## 26.4.0
